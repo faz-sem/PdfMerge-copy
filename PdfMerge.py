@@ -155,5 +155,6 @@ class PdfMergeApp:
             print(f"successfully merged {len(self.pdflist)} files.")
             # self.root.destroy()  # close window as merge is complete
 
-
+print('Program start!')
 PdfMergeApp()  # execute app
+print('Program end!')
